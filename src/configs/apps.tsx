@@ -6,6 +6,7 @@ import Typora from "~/components/apps/Typora";
 import VSCode from "~/components/apps/VSCode";
 import { appBarHeight } from "~/utils";
 import type { AppsData } from "~/types";
+import Spotify from "~/components/apps/Spotify";
 
 const apps: AppsData[] = [
   {
@@ -56,6 +57,17 @@ const apps: AppsData[] = [
     y: -30,
     img: "img/icons/vscode.png",
     content: <VSCode />
+  },
+  {
+    id: "spotify",
+    title: "Spotify",
+    desktop: true,
+    width: 900,
+    height: 600,
+    x: 80,
+    y: -30,
+    img: "img/icons/spotify.png",
+    content: <Spotify />
   },
   {
     id: "facetime",

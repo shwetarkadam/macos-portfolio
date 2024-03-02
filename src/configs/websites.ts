@@ -7,15 +7,15 @@ const websites: WebsitesData = {
       {
         id: "my-blog",
         title: "Website",
-        img: "https://zxh.io/img/avatar.jpg",
-        link: "https://zxh.io/",
+        img: "https://zxh.io/img/cat-1.jpg",
+        link: "https://codeklutz.com/",
         inner: true
       },
       {
         id: "my-github",
         title: "Github",
         img: "img/sites/github.svg",
-        link: "https://github.com/Renovamen"
+        link: "https://github.com/shwetarkadam"
       },
       {
         id: "my-linkedin",
@@ -23,12 +23,7 @@ const websites: WebsitesData = {
         img: "img/sites/linkedin.svg",
         link: "https://www.linkedin.com/in/shwetarkadam"
       },
-      {
-        id: "my-google-scholar",
-        title: "Scholar",
-        img: "img/sites/google-scholar.svg",
-        link: "https://scholar.google.com/citations?user=RuW6xgMAAAAJ"
-      },
+
       {
         id: "my-zhihu",
         title: "知乎",
