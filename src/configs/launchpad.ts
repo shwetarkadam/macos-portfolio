@@ -37,12 +37,12 @@ const launchpadApps: LaunchpadData[] = [
   //   img: "img/icons/launchpad/notebook.png",
   //   link: "https://note.zxh.io"
   // },
-  // {
-  //   id: "cube",
-  //   title: "Cube Solver",
-  //   img: "img/icons/launchpad/cube.png",
-  //   link: "https://cube.zxh.io/"
-  // },
+  {
+    id: "CodeKlutz",
+    title: "CodeKlutz",
+    img: "img/ui/cat.gif",
+    link: "https://codeklutz.com"
+  },
   {
     id: "resume",
     title: "Résumé",
