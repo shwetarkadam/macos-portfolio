@@ -67,7 +67,7 @@ const apps: AppsData[] = [
     height: 600,
     x: 80,
     y: -30,
-    img: "img/ui/cat.gif",
+    img: "img/ui/catavatar.png",
     content: <CodeKlutz />
   },
   {
