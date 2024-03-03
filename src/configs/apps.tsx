@@ -7,6 +7,7 @@ import VSCode from "~/components/apps/VSCode";
 import { appBarHeight } from "~/utils";
 import type { AppsData } from "~/types";
 import Spotify from "~/components/apps/Spotify";
+import CodeKlutz from "~/components/apps/CodeKlutz";
 
 const apps: AppsData[] = [
   {
@@ -57,6 +58,17 @@ const apps: AppsData[] = [
     y: -30,
     img: "img/icons/vscode.png",
     content: <VSCode />
+  },
+  {
+    id: "CodeKlutz",
+    title: "CodeKlutz",
+    desktop: true,
+    width: 900,
+    height: 600,
+    x: 80,
+    y: -30,
+    img: "img/ui/cat.gif",
+    content: <CodeKlutz />
   },
   {
     id: "spotify",
