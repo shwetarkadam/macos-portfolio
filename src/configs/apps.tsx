@@ -64,10 +64,10 @@ const apps: AppsData[] = [
     title: "CodeKlutz",
     desktop: true,
     width: 900,
-    height: 600,
+    height: 900,
     x: 80,
     y: -30,
-    img: "img/ui/cat-1.jpg",
+    img: "img/ui/cat.gif",
     content: <CodeKlutz />
   },
   {
