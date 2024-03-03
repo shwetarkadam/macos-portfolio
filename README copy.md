@@ -35,7 +35,9 @@ pnpm build
 
 ## Changelog
 
-- **Update 2023.06.26**: Improve [FaceTime](https://support.apple.com/en-us/HT208176).
+- **Update 2024.06.26**: Added spotify api and changed vs code icon to show mh vs code website 
+- 
+- **Update 2023.03.01**: Improve [FaceTime](https://support.apple.com/en-us/HT208176).
 
 - **Update 2023.06.25**: Add [Typora](https://typora.io/), built on top of [Milkdown](https://milkdown.dev/).
 
