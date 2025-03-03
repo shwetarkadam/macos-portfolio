@@ -95,7 +95,7 @@ importers:
         version: 0.56.1
       '@vitejs/plugin-react':
         specifier: ^4.0.4
-        version: 4.0.4(vite@4.4.9)
+        version: 4.0.4(vite@4.5.5)
       eslint:
         specifier: ^8.49.0
         version: 8.49.0
@@ -131,10 +131,10 @@ importers:
         version: 5.2.2
       unocss:
         specifier: ^0.56.1
-        version: 0.56.1(postcss@8.4.30)(vite@4.4.9)
+        version: 0.56.1(postcss@8.4.30)(vite@4.5.5)
       vite:
-        specifier: ^4.4.9
-        version: 4.4.9(@types/node@20.6.3)
+        specifier: ^4.5.5
+        version: 4.5.5(@types/node@20.6.3)
 
   packages/eslint-config-astro:
     dependencies:
@@ -1699,7 +1699,7 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@unocss/astro@0.56.1(vite@4.4.9):
+  /@unocss/astro@0.56.1(vite@4.5.5):
     resolution: {integrity: sha512-ivWm69J76DRwCiEFM75qR4WPMCC6nyOrUM5iQDTypwKbBX26XlXcYYCN3DLoQTmWdp5f2BubZXAg3KIdgVxrYg==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0
@@ -1709,8 +1709,8 @@ packages:
     dependencies:
       '@unocss/core': 0.56.1
       '@unocss/reset': 0.56.1
-      '@unocss/vite': 0.56.1(vite@4.4.9)
-      vite: 4.4.9(@types/node@20.6.3)
+      '@unocss/vite': 0.56.1(vite@4.5.5)
+      vite: 4.5.5(@types/node@20.6.3)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1886,7 +1886,7 @@ packages:
       '@unocss/core': 0.56.1
     dev: true
 
-  /@unocss/vite@0.56.1(vite@4.4.9):
+  /@unocss/vite@0.56.1(vite@4.5.5):
     resolution: {integrity: sha512-IztLc304zP2LYQMsP3yVHmLwXlLUgCY3q6Nkqw6Hpds7l5JXBsE7Q19DtNW+4nDOp9wvWhw7CjQLmoh8d+V0lQ==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0
@@ -1901,12 +1901,12 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.3.1
       magic-string: 0.30.3
-      vite: 4.4.9(@types/node@20.6.3)
+      vite: 4.5.5(@types/node@20.6.3)
     transitivePeerDependencies:
       - rollup
     dev: true
 
-  /@vitejs/plugin-react@4.0.4(vite@4.4.9):
+  /@vitejs/plugin-react@4.0.4(vite@4.5.5):
     resolution: {integrity: sha512-7wU921ABnNYkETiMaZy7XqpueMnpu5VxvVps13MjmCo+utBdD79sZzrApHawHtVX66cCJQQTXFcjH0y9dSUK8g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1916,7 +1916,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.22.20)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.20)
       react-refresh: 0.14.0
-      vite: 4.4.9(@types/node@20.6.3)
+      vite: 4.5.5(@types/node@20.6.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6402,7 +6402,7 @@ packages:
       unist-util-visit-parents: 6.0.1
     dev: false
 
-  /unocss@0.56.1(postcss@8.4.30)(vite@4.4.9):
+  /unocss@0.56.1(postcss@8.4.30)(vite@4.5.5):
     resolution: {integrity: sha512-jjkcyXfW90CUjN4tBV6SrHX9ifi5GQgcwAQlMRB0copJEW3ejM/nyZnRgNexaV7hi7Ao76XMVqCKbOC5B+IuOA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -6414,7 +6414,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@unocss/astro': 0.56.1(vite@4.4.9)
+      '@unocss/astro': 0.56.1(vite@4.5.5)
       '@unocss/cli': 0.56.1
       '@unocss/core': 0.56.1
       '@unocss/extractor-arbitrary-variants': 0.56.1
@@ -6433,8 +6433,8 @@ packages:
       '@unocss/transformer-compile-class': 0.56.1
       '@unocss/transformer-directives': 0.56.1
       '@unocss/transformer-variant-group': 0.56.1
-      '@unocss/vite': 0.56.1(vite@4.4.9)
-      vite: 4.4.9(@types/node@20.6.3)
+      '@unocss/vite': 0.56.1(vite@4.5.5)
+      vite: 4.5.5(@types/node@20.6.3)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -6517,8 +6517,8 @@ packages:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  /vite@4.4.9(@types/node@20.6.3):
-    resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
+  /vite@4.5.5(@types/node@20.6.3):
+    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
